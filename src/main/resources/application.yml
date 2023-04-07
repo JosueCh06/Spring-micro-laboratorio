@@ -1,0 +1,16 @@
+server:
+  port: 8087
+  
+spring:
+  application:
+    name: MICRO-LABORATORIO
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/farmacia_2022_dsw_ii_rest?serverTimezone=UTC
+    username: root
+    password: mysql
+  jpa:
+    database: MYSQL
+    show-sql: true
+  
+
